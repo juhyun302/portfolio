@@ -1,1 +1,170 @@
-sd
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Embedded 전문가 포트폴리오</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .section {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-md shadow-lg">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-teal-400">내 포트폴리오</a>
+            <div class="space-x-4 md:space-x-8">
+                <a href="#about" class="text-gray-300 hover:text-white transition duration-300">소개</a>
+                <a href="#skills" class="text-gray-300 hover:text-white transition duration-300">기술</a>
+                <a href="#projects" class="text-gray-300 hover:text-white transition duration-300">프로젝트</a>
+                <a href="#contact" class="text-gray-300 hover:text-white transition duration-300">연락처</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="h-screen flex items-center justify-center bg-gray-800 text-center">
+        <div class="px-6">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">
+                <span class="text-teal-400">AI</span> & <span class="text-cyan-400">임베디드</span> 개발자
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300">
+                AI와 임베디드 시스템의 융합을 통해 혁신적인 솔루션을 만듭니다.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section bg-gray-900">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-bold text-center mb-12">소개</h2>
+            <div class="md:flex md:space-x-12 items-center">
+                <div class="md:w-1/3 mb-6 md:mb-0 flex justify-center">
+                    <img src="https://placehold.co/200x200/22c55e/ffffff?text=ME" alt="Profile Picture" class="rounded-full shadow-lg">
+                </div>
+                <div class="md:w-2/3">
+                    <p class="text-lg text-gray-300 mb-4">
+                        안녕하세요! 저는 인공지능과 임베디드 시스템 개발에 깊은 열정을 가진 전문가입니다. 딥러닝 모델을 경량화하여 저전력 IoT 기기에 적용하는 것부터, 실시간 데이터 처리를 위한 엣지 컴퓨팅 솔루션을 구축하는 것까지 다양한 경험을 쌓았습니다.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                        소프트웨어와 하드웨어의 경계를 넘나들며, 이론을 실제 제품으로 구현하는 것을 즐깁니다. 새로운 기술을 배우고 도전하는 것을 두려워하지 않으며, 효율적이고 안정적인 코드를 작성하기 위해 항상 노력합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-gray-800">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-bold text-center mb-12">기술 스택</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+                <!-- AI Skills -->
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl">
+                    <span class="text-4xl mb-4 block">🤖</span>
+                    <h3 class="text-xl font-semibold mb-2">인공지능</h3>
+                    <ul class="text-gray-300 list-none">
+                        <li>Python</li>
+                        <li>TensorFlow, PyTorch</li>
+                        <li>Scikit-learn</li>
+                        <li>Numpy, Pandas</li>
+                    </ul>
+                </div>
+                <!-- Embedded Skills -->
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl">
+                    <span class="text-4xl mb-4 block">⚙️</span>
+                    <h3 class="text-xl font-semibold mb-2">임베디드</h3>
+                    <ul class="text-gray-300 list-none">
+                        <li>C, C++</li>
+                        <li>RTOS (FreeRTOS)</li>
+                        <li>ARM, RISC-V</li>
+                        <li>통신 프로토콜 (I2C, SPI)</li>
+                    </ul>
+                </div>
+                <!-- Other Skills -->
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl">
+                    <span class="text-4xl mb-4 block">💻</span>
+                    <h3 class="text-xl font-semibold mb-2">기타</h3>
+                    <ul class="text-gray-300 list-none">
+                        <li>Git & GitHub</li>
+                        <li>Linux</li>
+                        <li>Docker</li>
+                        <li>Raspberry Pi, Arduino</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-gray-900">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h2 class="text-4xl font-bold text-center mb-12">주요 프로젝트</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="p-6 bg-gray-800 rounded-lg shadow-xl">
+                    <img src="https://placehold.co/400x250/334155/ffffff?text=Project+1" alt="Project 1" class="rounded-md mb-4 w-full">
+                    <h3 class="text-2xl font-bold mb-2 text-white">엣지 디바이스용 AI 모델</h3>
+                    <p class="text-gray-400 mb-4">저전력 MCU에서 동작하는 경량화된 이미지 분류 AI 모델 개발.</p>
+                    <a href="#" class="text-teal-400 hover:underline">GitHub에서 보기 →</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="p-6 bg-gray-800 rounded-lg shadow-xl">
+                    <img src="https://placehold.co/400x250/334155/ffffff?text=Project+2" alt="Project 2" class="rounded-md mb-4 w-full">
+                    <h3 class="text-2xl font-bold mb-2 text-white">스마트 팜 임베디드 시스템</h3>
+                    <p class="text-gray-400 mb-4">센서 데이터를 수집하고 AI로 분석하는 IoT 스마트 팜 시스템 구축.</p>
+                    <a href="#" class="text-teal-400 hover:underline">GitHub에서 보기 →</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="p-6 bg-gray-800 rounded-lg shadow-xl">
+                    <img src="https://placehold.co/400x250/334155/ffffff?text=Project+3" alt="Project 3" class="rounded-md mb-4 w-full">
+                    <h3 class="text-2xl font-bold mb-2 text-white">자율주행 RC카 제어</h3>
+                    <p class="text-gray-400 mb-4">카메라와 AI를 이용해 장애물을 회피하며 주행하는 RC카 임베디드 제어 시스템.</p>
+                    <a href="#" class="text-teal-400 hover:underline">GitHub에서 보기 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-gray-800">
+        <div class="container mx-auto px-6 max-w-2xl text-center">
+            <h2 class="text-4xl font-bold text-center mb-8">연락처</h2>
+            <p class="text-lg text-gray-300 mb-6">
+                저의 포트폴리오에 관심이 있으시다면 언제든지 연락 주세요!
+            </p>
+            <div class="space-y-4">
+                <p class="text-xl text-gray-200">
+                    <a href="mailto:juhyun00122@gmail.com" class="text-teal-400 hover:underline">your.email@example.com</a>
+                </p>
+                <p class="text-xl text-gray-200">
+                    <a href="https://github.com/juhyun302" target="_blank" class="text-teal-400 hover:underline">GitHub 프로필</a>
+                </p>
+                <p class="text-xl text-gray-200">
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-teal-400 hover:underline">LinkedIn 프로필</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-center text-gray-500 py-6">
+        <p>&copy; 2025 AI & Embedded Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
