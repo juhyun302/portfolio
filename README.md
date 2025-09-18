@@ -6,4 +6,4 @@
 
 ## 라이브 데모
 - 포트폴리오 사이트: https://juhyun302.github.io/portfolio/
-- Snakegame 사이트 : https://juhyun302.github.io/portfolio/snakegame.html/
+- Snakegame 사이트 : https://juhyun302.github.io/portfolio/snakegame.html
